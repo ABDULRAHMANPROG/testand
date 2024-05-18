@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTextPassword.getText().toString().trim();
 
                 if (email.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Please enter email and password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter email and password full", Toast.LENGTH_SHORT).show();
                 } else {
                     // Perform authentication or navigate to next screen upon successful login
                     // For example:
